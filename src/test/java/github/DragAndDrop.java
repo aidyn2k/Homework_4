@@ -25,7 +25,7 @@ public class DragAndDrop {
         //Перенос квадрата А в квадрат Б
         $("#column-a").dragAndDropTo($("#column-b"));
 
-        //Поверка что квадраты поменялись
+        //Проверка что квадраты поменялись
         $("#column-a header").shouldHave(text("B"));
 
     }
